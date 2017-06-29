@@ -33,6 +33,16 @@
 	</servlet-mapping>
 	<!-- Spring MVC Config End -->
 
+	<!--Druid 数据库连接池监控-->
+	<servlet>
+		<servlet-name>DruidStatView</servlet-name>
+		<servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DruidStatView</servlet-name>
+		<url-pattern>/druid/*</url-pattern>
+	</servlet-mapping>
+
 	<!--jersey servlet begin-->
 	<servlet>
 		<servlet-name>jersey-serlvet</servlet-name>
