@@ -17,7 +17,7 @@ spring mvc -successfully!!!!!!!!!!!!!!!!!!!!!!!!!
     暂无记录
 </c:if>
 
-<table border="1">
+<table class="table">
     <tr>
         <td>serial_number</td>
         <td>url信息描述</td>

@@ -32,6 +32,11 @@ public class ControllerInterceptor extends HandlerInterceptorAdapter {
             //here is the aop logic
 
         }
+        //regular  judgement
+        if(requestUrl.equals("/info/showMsg1")){
+
+
+        }
 //        logger.info("===========ControllerInterceptor preHandle");
         return true;
     }

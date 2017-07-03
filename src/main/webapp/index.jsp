@@ -2,6 +2,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <body>
-aaaaaaa
+this is index jsp
 </body>
 </html>

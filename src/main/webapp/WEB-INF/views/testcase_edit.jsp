@@ -16,19 +16,19 @@
 <body>
 <form id="form1" name="form1" method="get" action="<%=basePath%>info/showMsg">
     <p>
-        <label for="textfield1">Text Field:</label>
+        <label for="textfield1">船名：</label>
         <input type="text" name="textfield1" id="textfield1" value="vessels">
-        <label for="textfield2">Text Field:</label>
+        <label for="textfield2">批次名：</label>
         <input type="text" name="textfield2" id="textfield2" value="MASK">
     </p>
     <p>
-        <label for="textfield3">Text Field:</label>
+        <label for="textfield3">航运号：</label>
         <input type="text" name="textfield3" id="textfield3" value="tab1">
-        <label for="textfield4">Text Field:</label>
+        <label for="textfield4">出航时间：</label>
         <input type="text" name="textfield4" id="textfield4" value="tab2">
     </p>
     <p>
-        <label for="textfield5">Text Field:</label>
+        <label for="textfield5">船公司名称：</label>
         <input type="text" name="textfield5" id="textfield5" value="tab3"><br>
         <textarea name="textfield6" id="textfield6" cols="30" rows="10">SELECT vessel1,mask1,backupcolumn1 FROM rest_demo.board_company2</textarea>
         <br><input type="submit" name="button" id="button" value="提交/保存">

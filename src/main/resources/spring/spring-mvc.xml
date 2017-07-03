@@ -33,7 +33,11 @@
     <!--使用Spring注解功能 -->
     <context:annotation-config />
     <!-- 静态资源文件，不会被Spring MVC拦截 -->
-    <!--<mvc:resources location="/resources/" mapping="/resources/**"/>-->
+    <!--<mvc:resources location="/WEB-INF/" mapping="/images/**"/>-->
+    <mvc:resources location="/WEB-INF/" mapping="/bootstrap/css/**"/>
+    <mvc:resources location="/WEB-INF/" mapping="/bootstrap/js/**"/>
+    <mvc:resources location="/WEB-INF/" mapping="/bootstrap/fonts/**"/>
+
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**" />
