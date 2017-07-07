@@ -2,7 +2,7 @@ package org1.coding.demo.springmvc.Service.impl;
 
 import org.codingpedia.demo.rest.JPAEntity.testEntity;
 import org.springframework.beans.factory.annotation.Autowired;
-import org1.coding.demo.springmvc.DAO.TestDAO;
+import org1.coding.demo.springmvc.YtDao.TestDAO;
 import org1.coding.demo.springmvc.FACADE.Podcast2;
 import org1.coding.demo.springmvc.Service.BoardURLService;
 

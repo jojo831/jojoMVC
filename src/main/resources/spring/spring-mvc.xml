@@ -34,9 +34,11 @@
     <context:annotation-config />
     <!-- 静态资源文件，不会被Spring MVC拦截 -->
     <!--<mvc:resources location="/WEB-INF/" mapping="/images/**"/>-->
-    <mvc:resources location="/WEB-INF/" mapping="/bootstrap/css/**"/>
-    <mvc:resources location="/WEB-INF/" mapping="/bootstrap/js/**"/>
-    <mvc:resources location="/WEB-INF/" mapping="/bootstrap/fonts/**"/>
+    <mvc:resources location="/bootstrap/" mapping="/bootstrap/css/**"/>
+    <mvc:resources location="/bootstrap/" mapping="/bootstrap/js/**"/>
+    <mvc:resources location="/bootstrap/" mapping="/bootstrap/fonts/**"/>
+
+    <mvc:resources location="/dist/" mapping="/dist/**"/>
 
     <mvc:interceptors>
         <mvc:interceptor>
@@ -68,5 +70,5 @@
     </bean>
 
     <bean id="boardURLService" class="org1.coding.demo.springmvc.Service.impl.BoardURLServiceIMPL"/>
-    <bean id="testDAO" class="org1.coding.demo.springmvc.DAO.DAOImpl.TestDAOImpl"/>
+    <bean id="testDAO" class="org1.coding.demo.springmvc.YtDao.YtDaoImpl.TestDAOImpl"/>
 </beans>
